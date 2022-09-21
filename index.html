@@ -26,13 +26,73 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="container"></div>
+    <header class="mx-auto">
+        <nav class="nav bg-violet py-4">
+            <div class="container mx-auto">
+                <div class="nav__main d-flex justify-content-between align-items-center position-relative">
+                    <div class="nav__main--logo d-flex align-items-center">
+                        <img src="./img/1-nav/logo.svg" alt="логотип">
+                        <span>Городская<br>служба<br>дезинсекции</span>
+                    </div>
+
+                    <ul class="d-none d-xl-flex">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Наши услуги</a></li>
+                        <li><a href="#">Стоимость</a></li>
+                        <li><a href="#">Виды объектов</a></li>
+                        <li><a href="#">Как мы работаем</a></li>
+                        <li><a href="#">Ответы на вопросы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+
+                    <div class="nav__main--menu position-absolute">
+                        <div class="nav__main--menu-wrapper position-relative">
+                            <img class="close position-absolute" src="./img/1-nav/close.svg" alt="">
+                            <ul class="d-flex flex-column">
+                                <li><a href="#">О нас</a></li>
+                                <li><a href="#">Наши услуги</a></li>
+                                <li><a href="#">Стоимость</a></li>
+                                <li><a href="#">Виды объектов</a></li>
+                                <li><a href="#">Как мы работаем</a></li>
+                                <li><a href="#">Ответы на вопросы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                            <button class="btn bg-green" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">Оставить
+                                заявку</button>
+                        </div>
+                    </div>
+
+                    <button class="btn bg-green d-none d-xl-block" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Оставить заявку</button>
+                    <button class="burger d-block d-xl-none"><img src="./img/1-nav/burger.svg" alt=""></button>
+                </div>
+            </div>
         </nav>
 
         <div class="header__main">
-            <div class="container"></div>
+            <h1 class="header__main--title fw500 mb-2 mb-lg-3"><span class="c-green">Уничтожение</span> насекомых
+                грызунов,<br>
+                запахов и плесени в Москве и области</h1>
+            <h2 class="header__main--subtitle fw500 c-green text-uppercase">с гарантией 3 года</h2>
+            <div class="header__main--argument bg-violet">
+                <span class="fw500">Если не справимся - вернем деньги</span>
+            </div>
+            <img class="header__main--manMob d-none" src="./img/2-header/header-man-mob.png" alt="">
+
+            <div class="header__main--form d-flex justify-content-center flex-column">
+                <h3 class="header__main--form-title fw500 mb-2">Узнайте стоимость прямо сейчас</h3>
+                <p class="header__main--form-description fw400 mb-4">Консультация и диагностика <span
+                        class="c-violet">бесплатно</span></p>
+                <form>
+                    <input class="input mb-3" placeholder="Ваш номер" type="text">
+                    <button class="btn btn-header bg-green">Узнать стоимость</button>
+                </form>
+            </div>
+            <div class="header__main--line bg-violet py-1 d-flex justify-content-center">
+                <span class="fw400">ОФИЦИАЛЬНАЯ САНЭПИДЕМСТАНЦИЯ В МОСКВЕ - РАБОТАЕМ С 2010 ГОДА</span>
+            </div>
+            <!-- <img class="header__main--man position-absolute" src="./img/2-header/header-man.png" alt=""> -->
         </div>
     </header>
 
@@ -72,9 +132,32 @@
         <div class="container"></div>
     </section>
 
-    <div class="modal"></div>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
-    <div class="thanks"></div>
+                <h3 class="title-modal mb-3">Оформите заявку</h3>
+                <p class="modal-description mb-4 fw500 c-green">Для сотрудничества с нами <br>
+                    оставьте свои данные</p>
+                <form class="from-modal mx-auto" action="">
+                    <input placeholder="Ваше имя" class="input mb-2 mb-lg-3" type="text">
+                    <input placeholder="Ваше имя" class="input mb-3 mb-lg-4" type="text">
+                    <button class="btn bg-violet btn-modal">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div style="display:none;" class="thanks">
+        <div class="thanks__main">
+            <button class="thanks__main--btn"><img src="./img/modal/closed.svg" alt=""></button>
+            <h3 class="title-modal mb-3">Оформите заявку</h3>
+            <p class="modal-description mb-5 fw500 c-violet">Для сотрудничества с нами <br>оставьте свои данные</p>
+            <img class="thanks__main--close" src="./img/modal/check.svg" alt="">
+        </div>
+    </div>
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
