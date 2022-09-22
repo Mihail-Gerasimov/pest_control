@@ -18,11 +18,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
     <!-- fonts -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
     <!-- styles -->
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/media.min.css">
     <!-- styles -->
-
 </head>
 
 <body>
@@ -198,13 +199,267 @@
     </section>
 
     <section class="services">
-        <div class="container">
+        <h3 class="title">УНИЧТОЖАЕМ ВСЕ ВИДЫ НАСЕКОМЫХ,
+            ГРЫЗУНОВ,ВРЕДИТЕЛЕЙ И ЗАПАХОВ </h3>
+        <h4 class="subtitle mb-0">В Москве и области</h4>
+        <div class="container mx-auto">
+            <div class="services__main">
+                <img class="red position-absolute" src="./img/5-services/red.png" alt="">
+                <div class="services__main--content d-flex flex-wrap justify-content-between">
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-1.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Муравьи</p>
+                    </div>
 
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-2.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Тараканы</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-3.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Осы</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-4.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Блохи</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-5.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Клопы</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-6.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Клещи</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-7.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Неприятный <br>
+                            запах</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-8.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Плесень</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-9.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Грызуны</p>
+                    </div>
+
+                    <div class="services__main--content-element d-flex flex-column align-items-center">
+                        <img class="mb-3" src="./img/5-services/s-10.svg" alt="">
+                        <p class="fw400 text-center text-uppercase">Сан обработка<br>
+                            авто</p>
+                    </div>
+                </div>
+                <button class="services__main--btn btn bg-violet">Заказать обработку</button>
+            </div>
         </div>
     </section>
 
     <section class="treatment">
-        <div class="container"></div>
+        <h3 class="title mb-5">СКОЛЬКО СТОЯТ УСЛУГИ ОБРАБОТКИ?</h3>
+        <div class="container mx-auto">
+            <div class="treatment__main d-none d-sm-flex justify-content-around flex-wrap mx-auto">
+                <div class="treatmentCard">
+                    <h5 class="treatmentCard__title c-violet fw500">ДЕЗИНСЕКЦИЯ</h5>
+                    <p class="treatmentCard__description text-center fw400">Уничтожение клопов,
+                        тараканов, клещей,
+                        насекомых.</p>
+                    <div class="treatmentCard__argument position-relative">
+                        <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                        <div class="treatmentCard__argument--list">Срочный выезд</div>
+                        <div class="treatmentCard__argument--list">Круглосуточно</div>
+                        <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                    </div>
+
+                    <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                    <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                </div>
+
+                <div class="treatmentCard">
+                    <h5 class="treatmentCard__title c-violet fw500">ДЕРАТИЗАЦИЯ</h5>
+                    <p class="treatmentCard__description text-center fw400">Уничтожение крыс,
+                        мышей, кротов,
+                        полевок и др.</p>
+                    <div class="treatmentCard__argument position-relative">
+                        <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                        <div class="treatmentCard__argument--list">Срочный выезд</div>
+                        <div class="treatmentCard__argument--list">Круглосуточно</div>
+                        <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                    </div>
+
+                    <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                    <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                </div>
+
+                <div class="treatmentCard">
+                    <h5 class="treatmentCard__title c-violet fw500">ОБРАБОТКА<br>УЧАСТКОВ</h5>
+                    <p class="treatmentCard__description text-center fw400">Уничтожение клещей,
+                        муравьев, комаров,
+                        садовых вредителей.</p>
+                    <div class="treatmentCard__argument position-relative">
+                        <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                        <div class="treatmentCard__argument--list">Срочный выезд</div>
+                        <div class="treatmentCard__argument--list">Круглосуточно</div>
+                        <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                    </div>
+
+                    <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                    <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                </div>
+
+                <div class="treatmentCard">
+                    <h5 class="treatmentCard__title c-violet fw500">ДЕЗИНФЕКЦИЯ</h5>
+                    <p class="treatmentCard__description text-center fw400">Уничтожение плесени,
+                        грибка и других
+                        микроорганизмов.</p>
+                    <div class="treatmentCard__argument position-relative">
+                        <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                        <div class="treatmentCard__argument--list">Срочный выезд</div>
+                        <div class="treatmentCard__argument--list">Круглосуточно</div>
+                        <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                    </div>
+
+                    <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                    <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                </div>
+
+                <div class="treatmentCard">
+                    <h5 class="treatmentCard__title c-violet fw500">ДЕЗОДОРАЦИЯ</h5>
+                    <p class="treatmentCard__description text-center fw400">Устранение неприятных
+                        запахов химическими
+                        веществами.</p>
+                    <div class="treatmentCard__argument position-relative">
+                        <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                        <div class="treatmentCard__argument--list">Срочный выезд</div>
+                        <div class="treatmentCard__argument--list">Круглосуточно</div>
+                        <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                    </div>
+
+                    <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                    <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                </div>
+            </div>
+
+            <div class="treatmentSwiper">
+                <div class="swiper swiperOne py-2 d-block d-sm-none">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="treatmentCard">
+                                <h5 class="treatmentCard__title c-violet fw500">ДЕЗИНСЕКЦИЯ</h5>
+                                <p class="treatmentCard__description text-center fw400">Уничтожение клопов,
+                                    тараканов, клещей,
+                                    насекомых.</p>
+                                <div class="treatmentCard__argument position-relative">
+                                    <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                                    <div class="treatmentCard__argument--list">Срочный выезд</div>
+                                    <div class="treatmentCard__argument--list">Круглосуточно</div>
+                                    <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                                </div>
+
+                                <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                                <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="treatmentCard">
+                                <h5 class="treatmentCard__title c-violet fw500">ДЕРАТИЗАЦИЯ</h5>
+                                <p class="treatmentCard__description text-center fw400">Уничтожение крыс,
+                                    мышей, кротов,
+                                    полевок и др.</p>
+                                <div class="treatmentCard__argument position-relative">
+                                    <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                                    <div class="treatmentCard__argument--list">Срочный выезд</div>
+                                    <div class="treatmentCard__argument--list">Круглосуточно</div>
+                                    <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                                </div>
+
+                                <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                                <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="swiper-slide">
+                                <div class="treatmentCard treatmentCard-individ">
+                                    <h5 class="treatmentCard__title c-violet fw500">
+                                        ОБРАБОТКА<br class="d-none d-sm-block">УЧАСТКОВ</h5>
+                                    <p class="treatmentCard__description text-center fw400">Уничтожение клещей,
+                                        муравьев, комаров,
+                                        садовых вредителей.</p>
+                                    <div class="treatmentCard__argument position-relative">
+                                        <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                                        <div class="treatmentCard__argument--list">Срочный выезд</div>
+                                        <div class="treatmentCard__argument--list">Круглосуточно</div>
+                                        <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                                    </div>
+
+                                    <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                                    <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="treatmentCard">
+                                <h5 class="treatmentCard__title c-violet fw500">ДЕЗИНФЕКЦИЯ</h5>
+                                <p class="treatmentCard__description text-center fw400">Уничтожение плесени,
+                                    грибка и других
+                                    микроорганизмов.</p>
+                                <div class="treatmentCard__argument position-relative">
+                                    <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                                    <div class="treatmentCard__argument--list">Срочный выезд</div>
+                                    <div class="treatmentCard__argument--list">Круглосуточно</div>
+                                    <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                                </div>
+
+                                <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                                <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="treatmentCard">
+                                <h5 class="treatmentCard__title c-violet fw500">ДЕЗОДОРАЦИЯ</h5>
+                                <p class="treatmentCard__description text-center fw400">Устранение неприятных
+                                    запахов химическими
+                                    веществами.</p>
+                                <div class="treatmentCard__argument position-relative">
+                                    <img class="position-absolute" src="./img/6-treatment/t-ok.svg" alt="">
+                                    <div class="treatmentCard__argument--list">Срочный выезд</div>
+                                    <div class="treatmentCard__argument--list">Круглосуточно</div>
+                                    <div class="treatmentCard__argument--list">Гарантия до 3-х лет</div>
+                                </div>
+
+                                <h4 class="title treatmentCard__title--bot">от 900 ₽</h4>
+
+                                <button class="btn treatmentCard__btn bg-violet">Заказать обработку</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination swiper-paginationONE align-items-end justify-content-center d-flex">
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="safety bg-violet">
@@ -281,6 +536,8 @@
             <img class="thanks__main--close" src="./img/modal/check.svg" alt="">
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -20,3 +20,13 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 };
 
+const swiperONE = new Swiper('.swiperOne', {
+    loop: true,
+
+    spaceBetween: 35,
+    // slidesPerView: 2,
+    pagination: {
+        el: '.swiper-paginationONE',
+    },
+
+});

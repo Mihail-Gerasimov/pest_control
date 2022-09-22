@@ -1,4 +1,8 @@
-@media (max-width: 1640px) {}
+@media (max-width: 1640px) {
+    .treatment__main {
+        max-width: 70%;
+    }
+}
 
 @media (max-width: 1440px) {
     .nav__main--logo img {
@@ -65,6 +69,10 @@
         max-width: 580px;
         font-size: 27px;
         line-height: 33px;
+    }
+
+    .treatment__main {
+        max-width: none;
     }
 }
 
@@ -138,6 +146,10 @@
         max-width: 450px;
         font-size: 23px;
         line-height: 29px;
+    }
+
+    .treatment {
+        padding-bottom: 80px;
     }
 }
 
@@ -348,6 +360,51 @@
         line-height: 28px;
     }
 
+    .treatment {
+        padding-bottom: 55px;
+    }
+
+    .treatmentCard {
+        max-width: 240px;
+        min-height: 390px;
+    }
+
+    .treatmentCard__title {
+        margin-bottom: 30px;
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .treatmentCard__description {
+        max-width: 194px;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 35px;
+    }
+
+    .treatmentCard__argument {
+        padding-left: 55px;
+        margin-bottom: 20px;
+    }
+
+    .treatmentCard__argument--list {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .treatmentCard__argument img {
+        left: 0;
+        max-width: 55px;
+    }
+
+    .treatmentCard__btn {
+        max-width: 220px;
+    }
+
+    .treatmentCard:nth-child(3) .treatmentCard__title {
+        margin-bottom: -2px;
+    }
+
     .safety {
         padding: 25px 0 50px;
     }
@@ -411,6 +468,59 @@
     .discount__main--form .free {
         font-size: 16px;
         line-height: 19px;
+    }
+
+    .treatmentSwiper {
+        overflow: hidden;
+    }
+
+    .swiperOne {
+        overflow: visible;
+        width: 280px;
+
+    }
+
+    .treatmentCard {
+        max-width: none;
+        min-height: 425px;
+    }
+
+    .treatmentCard__argument {
+        padding-left: 75px;
+        margin-bottom: 40px;
+    }
+
+    .treatmentCard__argument--list {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .treatmentCard__argument img {
+        left: 19px;
+    }
+
+    .treatmentCard__title {
+        margin-bottom: 33px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .treatmentCard__description {
+        max-width: 225px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 35px;
+    }
+
+    .swiperOne .swiper-paginationONE {
+        bottom: 0;
+    }
+
+    .swiperOne .swiper-pagination-bullet {
+        background-color: #3BDA44 !important;
+        width: 15px;
+        height: 15px;
+        border-radius: 0;
     }
 
     .safety__main--element img {
