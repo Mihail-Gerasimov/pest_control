@@ -60,6 +60,12 @@
         font-size: 15px;
         line-height: 18px;
     }
+
+    .discount__main--content p {
+        max-width: 580px;
+        font-size: 27px;
+        line-height: 33px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -122,6 +128,17 @@
         font-size: 27px;
         line-height: 33px;
     }
+
+    .discount__main--form {
+        max-width: 360px;
+        padding: 30px 30px;
+    }
+
+    .discount__main--content p {
+        max-width: 450px;
+        font-size: 23px;
+        line-height: 29px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -176,6 +193,29 @@
     .fast__item--text h4 {
         font-size: 19px;
         line-height: 25px;
+    }
+
+    .discount__main--form {
+        max-width: 100%;
+        padding: 50px 10px 60px;
+
+        form {
+            max-width: 435px;
+            margin: 0 auto;
+        }
+    }
+
+    .discount__main--content h3 {
+        margin: 0 auto;
+    }
+
+    .discount__main--content p {
+        max-width: 100%;
+    }
+
+    .discount {
+        min-height: inherit;
+        padding: 30px 0 40px;
     }
 
     .modal-dialog {
@@ -307,6 +347,10 @@
         font-size: 22px;
         line-height: 28px;
     }
+
+    .safety {
+        padding: 25px 0 50px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -346,6 +390,40 @@
         line-height: 23px;
         margin-bottom: 35px;
     }
+
+    .discount {
+        background-image: url(../img/4-discount/d-backgroung-mob.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .discount__main--content p {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .discount__main--form p {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .discount__main--form .free {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .safety__main--element img {
+        max-width: 155px;
+    }
+
+    .safety__main--element-text {
+        font-size: 25px;
+        line-height: 25px;
+        transform: translateY(-20px);
+        width: 180px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 425px) {
@@ -357,5 +435,11 @@
     .header__main--manMob {
         display: block !important;
         width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .discount {
+        background-size: contain;
     }
 }
