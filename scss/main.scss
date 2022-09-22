@@ -207,7 +207,23 @@ button {
     }
 }
 
+.title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #2F3B58;
+    margin-bottom: 5px;
+    text-align: center;
+}
 
+.subtitle {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #4448B2;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 /* base */
 .nav__main--logo span {
@@ -349,10 +365,28 @@ header {
         line-height: 38px;
     }
 
-    // &--man {
-    //     right: 0;
-    //     top: 0;
-    // }
+}
+
+.fast {
+    padding: 120px 0;
+
+    &__item {
+        max-width: 395px;
+
+        &--text {
+            transform: translateY(-25px);
+
+            h4 {
+                font-size: 32px;
+                line-height: 38px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 23px;
+            }
+        }
+    }
 }
 
 .close {
