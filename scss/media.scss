@@ -71,6 +71,14 @@
         line-height: 33px;
     }
 
+    .services__main--content-element img {
+        max-width: 80px;
+    }
+
+    .services__main {
+        max-width: 830px;
+    }
+
     .treatment__main {
         max-width: none;
     }
@@ -146,6 +154,23 @@
         max-width: 450px;
         font-size: 23px;
         line-height: 29px;
+    }
+
+    .services__main--content-element p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .services__main {
+        max-width: 650px;
+    }
+
+    .services {
+        padding: 80px 0;
+    }
+
+    .wrapperBox {
+        background-position-y: 130px;
     }
 
     .treatment {
@@ -228,6 +253,35 @@
     .discount {
         min-height: inherit;
         padding: 30px 0 40px;
+    }
+
+    .wrapperBox {
+        background-position-y: 105px;
+    }
+
+    .services__main {
+        max-width: 520px;
+    }
+
+    .services {
+        padding: 50px 0;
+    }
+
+    .services .services__main--content {
+        margin-bottom: 30px;
+    }
+
+    .services__main--content-element {
+        margin-bottom: 40px;
+    }
+
+    .services__main--content-element img {
+        max-width: 54px;
+    }
+
+    .services__main--content-element p {
+        font-size: 13px;
+        line-height: 17px;
     }
 
     .modal-dialog {
@@ -360,6 +414,14 @@
         line-height: 28px;
     }
 
+    .wrapperBox {
+        background-position-y: 162px;
+    }
+
+    .services__main {
+        max-width: none;
+    }
+
     .treatment {
         padding-bottom: 55px;
     }
@@ -468,6 +530,40 @@
     .discount__main--form .free {
         font-size: 16px;
         line-height: 19px;
+    }
+
+    .wrapperBox {
+        background-image: none;
+    }
+
+    .services__main--content-element:nth-child(n+5) {
+        margin-bottom: 25px;
+    }
+
+    .services__main--content-element {
+        margin-bottom: 25px;
+        width: 100%;
+        max-width: 80px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .red {
+        top: 268px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .services__main {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .services__main--content-element img {
+        max-width: 71px;
     }
 
     .treatmentSwiper {
