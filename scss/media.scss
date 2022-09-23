@@ -2,6 +2,23 @@
     .treatment__main {
         max-width: 70%;
     }
+
+    .health__man {
+        max-width: 450px;
+    }
+
+    .health__form {
+        max-width: 805px;
+        padding-left: 105px;
+    }
+
+    .health__title {
+        padding-left: 105px;
+    }
+
+    .health__subtitle {
+        padding-left: 105px;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -81,6 +98,58 @@
 
     .treatment__main {
         max-width: none;
+    }
+
+    .health__title {
+        padding-left: 50px;
+    }
+
+    .health__subtitle {
+        padding-left: 50px;
+        margin-bottom: 40px;
+    }
+
+    .health__form {
+        max-width: 680px;
+        padding-left: 50px;
+        min-height: 420px;
+    }
+
+    .health__form--title {
+        max-width: 540px;
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .health__man {
+        max-width: 370px;
+        transform: translateY(-40%);
+    }
+
+    .complexity__main--item {
+        img {
+            max-width: 350px;
+        }
+    }
+
+    .questions__question-header {
+        max-width: 700px;
+        padding: 30px 40px 30px 80px;
+    }
+
+    .questions__question-content--active {
+        padding: 15px 40px 0 80px;
+        max-width: 700px;
+    }
+
+    .questions__form {
+        padding: 55px 25px;
+        max-width: 387px;
+        margin-right: 80px;
+    }
+
+    .questions__title {
+        padding-left: 80px;
     }
 }
 
@@ -175,6 +244,82 @@
 
     .treatment {
         padding-bottom: 80px;
+    }
+
+    .health {
+        padding: 80px 0;
+    }
+
+    .health__title {
+        padding-left: 20px;
+    }
+
+    .health__subtitle {
+        padding-left: 20px;
+    }
+
+    .health__form {
+        max-width: 487px;
+        padding: 0 20px;
+        min-height: 351px;
+    }
+
+    .health__form--title {
+        max-width: 457px;
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+    .health__man {
+        max-width: 316px;
+        transform: translateY(-35%);
+    }
+
+    .effects__main--item img {
+        max-width: 170px;
+    }
+
+    .effects__main--item:nth-child(n+2) {
+        margin-bottom: 35px;
+    }
+
+    .effects__main--item {
+        width: 400px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    .effects {
+        padding: 70px 0 50px;
+    }
+
+    .effects__main--item-description h5 {
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .effects__main--item-description p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .complexity__main--item img {
+        max-width: 310px;
+    }
+
+    .complexyti {
+        padding: 90px 0;
+    }
+
+    .footer-list li {
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .btn-footer {
+        max-width: 207px;
     }
 }
 
@@ -344,6 +489,124 @@
         height: 20px;
         padding: 0;
     }
+
+    .health {
+        padding: 55px 0;
+    }
+
+    .health__man {
+        max-width: 245px;
+        transform: translateY(-17%);
+        right: 20px;
+    }
+
+    .effects__main--item img {
+        max-width: 144px;
+    }
+
+    .effects__main--item-description p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .effects__main--item-description h5 {
+
+        br {
+            display: none;
+        }
+    }
+
+    .effects__main--item {
+        width: 100%;
+        max-width: 370px;
+        text-align: center;
+    }
+
+    .complexity__main--item img {
+        max-width: 240px;
+    }
+
+    .complexity__main--item h5 {
+        font-size: 19px;
+        line-height: 19px;
+    }
+
+    .complexyti {
+        padding: 70px 0;
+    }
+
+    .problems__main--item {
+        max-width: 305px;
+    }
+
+    .problems__main--item h5 {
+        font-size: 20px;
+        line-height: 23px;
+        padding-left: 50px;
+    }
+
+    .problems__main--item p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .problems__main--item-number {
+        width: 48px;
+    }
+
+    .individ {
+        max-width: 31px;
+    }
+
+    .questions {
+        padding: 55px 0;
+    }
+
+    .questions__question {
+        padding-bottom: 25px;
+    }
+
+    .questions__question-header {
+        max-width: 500px;
+        padding: 10px 25px 10px 20px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .questions__question-header::before {
+        width: 15px;
+        height: 10px;
+        right: 9px;
+        background-size: 15px 10px;
+    }
+
+    .questions__question-content--active {
+        padding: 15px 10px 0 20px;
+        max-width: 500px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .questions__form {
+        padding: 60px 10px;
+        max-width: 300px;
+        margin-right: 20px;
+    }
+
+    .questions__form h5 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .questions__form p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .questions__title {
+        padding-left: 20px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -470,6 +733,58 @@
     .safety {
         padding: 25px 0 50px;
     }
+
+    .health__form {
+        max-width: 310px;
+        padding: 0 10px;
+        min-height: 370px;
+    }
+
+    .health__form--title {
+        text-align: center;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .health__man {
+        max-width: 226px;
+    }
+
+    .complexity__main--item h5 {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .complexity__main--item img {
+        max-width: 180px;
+    }
+
+    .complexyti {
+        padding: 55px 0;
+    }
+
+    .problems {
+        padding: 25px 0 50px;
+        background-image: url(../img/11-problems/prob-backgroung-mob.png);
+    }
+
+    .questions__form {
+        margin: 0 auto;
+    }
+
+    .questions__question {
+        &:last-child {
+            padding-bottom: 35px;
+        }
+    }
+
+    .questions__accordion {
+        padding-right: 10px;
+    }
+
+    .questions__title {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -500,7 +815,7 @@
     }
 
     .title {
-        font-size: 26px;
+        font-size: 24px;
         line-height: 30px;
     }
 
@@ -629,6 +944,38 @@
         transform: translateY(-20px);
         width: 180px;
         text-align: center;
+    }
+
+    .health__man {
+        position: relative !important;
+        left: auto;
+        transform: none;
+        margin: 25px auto 0;
+    }
+
+    .health__form {
+        max-width: 480px;
+    }
+
+    .complexity__main--item {
+        align-items: center;
+    }
+
+    .complexity__main--item img {
+        max-width: 280px;
+    }
+
+    .complexity__main--item h5 {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 280px;
+    }
+
+    .swiperTwo .swiper-pagination-bullet {
+        background-color: #3bda44 !important;
+        width: 15px;
+        height: 15px;
+        border-radius: 0;
     }
 }
 

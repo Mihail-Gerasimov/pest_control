@@ -30,3 +30,22 @@ const swiperONE = new Swiper('.swiperOne', {
     },
 
 });
+
+const swiperTwo = new Swiper('.swiperTwo', {
+    loop: true,
+
+    // slidesPerView: 2,
+    pagination: {
+        el: '.swiper-paginationTWO',
+    },
+
+});
+
+const questions = document.querySelectorAll('.questions__question-header');
+
+questions.forEach(question => {
+    question.addEventListener('click', () => {
+        question.nextSibling.nextSibling.classList.toggle('questions__question-content--active');
+        question.classList.toggle('questions__question-header--active');
+    });
+});
